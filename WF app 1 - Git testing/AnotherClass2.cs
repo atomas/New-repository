@@ -20,7 +20,6 @@ namespace WF_app_1___Git_testing
         public void otherMethor2()
         {
             //nothing yet
-            //will add later some code
         }
     }
 }
