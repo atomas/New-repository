@@ -11,5 +11,10 @@ namespace WF_app_1___Git_testing
         /*
          * Just for testing the stageing commit
         */
+        public int someMethod(int number)
+        {
+            int someNumber = number;
+            return someNumber;
+        }
     }
 }
