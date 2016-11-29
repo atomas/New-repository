@@ -13,6 +13,7 @@ namespace WF_app_1___Git_testing
         */
         public int someMethod(int number)
         {
+            //just for testing
             int someNumber = number;
             return someNumber;
         }
