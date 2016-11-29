@@ -36,6 +36,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -103,11 +104,20 @@
             this.progressBar1.Size = new System.Drawing.Size(267, 24);
             this.progressBar1.TabIndex = 8;
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(12, 249);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(267, 80);
+            this.richTextBox1.TabIndex = 9;
+            this.richTextBox1.Text = "";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(291, 255);
+            this.ClientSize = new System.Drawing.Size(291, 341);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label3);
@@ -133,6 +143,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
 
