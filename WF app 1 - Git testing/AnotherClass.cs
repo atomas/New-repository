@@ -16,5 +16,10 @@ namespace WF_app_1___Git_testing
             int someNumber = number;
             return someNumber;
         }
+
+        public void otherMethor()
+        {
+            //nothing yet
+        }
     }
 }
