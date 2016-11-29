@@ -34,16 +34,16 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(12, 204);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(266, 39);
+            this.button1.Size = new System.Drawing.Size(267, 39);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "Just Click";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -87,19 +87,19 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Date of birth";
             // 
-            // textBox3
+            // dateTimePicker1
             // 
-            this.textBox3.Location = new System.Drawing.Point(83, 74);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(162, 20);
-            this.textBox3.TabIndex = 6;
+            this.dateTimePicker1.Location = new System.Drawing.Point(83, 71);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(196, 20);
+            this.dateTimePicker1.TabIndex = 7;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(290, 255);
-            this.Controls.Add(this.textBox3);
+            this.ClientSize = new System.Drawing.Size(291, 255);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label2);
@@ -121,7 +121,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
 
